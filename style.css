@@ -79,8 +79,8 @@ nav a {
 .banner-img {
     position: absolute;
     top: 0;
-    right: -20;
-    width: 100%;
+    right: -20px;
+    width: 70%;
     height: 100%;
     object-fit: cover;
     border-radius: 18px;
@@ -124,5 +124,6 @@ nav a {
     line-height: 1.5;
 
 }
+
 
 
