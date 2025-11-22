@@ -68,8 +68,8 @@ nav a {
 .card-curso {
     position: relative;
     width: 100%;
-    max-width: 1050px;
-    margin: 40px auto;
+    max-width: 1280px;
+    margin: 60px auto;
     height: 260px;
     border-radius: 18px;
     overflow: hidden;
@@ -124,3 +124,4 @@ nav a {
     line-height: 1.5;
 
 }
+
