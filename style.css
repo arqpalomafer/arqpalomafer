@@ -106,7 +106,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     height: 100%;
     width: calc(100% - 350px);
     box-sizing: border-box;
@@ -210,6 +210,7 @@ nav a {
         top: 35%;
     }
 }
+
 
 
 
