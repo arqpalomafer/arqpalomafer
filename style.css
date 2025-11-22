@@ -85,42 +85,21 @@ nav a {
 }
 
 /* BANNER (fica atrás ocupando o espaço do texto) */
-.banner-img {
-    position: absolute;
-    top: 0;
-    right: 0;
+.banner {
+    position: relative;
     width: 90%;
-    height: 70%;
-    object-fit: cover;
-    border-radius: 15px;
-    opacity: 0.95;
-    z-index: 0;
+    height: 70%; /* ou a altura do seu banner */
+    display: flex;
+    align-items: center;   /* centraliza verticalmente */
+    justify-content: flex-start; /* mantém o conteúdo à esquerda */
+    padding: 40px 60px;    /* moldura invisível em cima/embaixo e laterais */
+    box-sizing: border-box;
 }
 
-/* CONTAINER DO TEXTO — A MOLDURA INVISÍVEL */
 .curso-conteudo {
-    position: relative;
-    z-index: 2;
-
-    /* Moldura invisível */
-    padding: 40px 60px;        /* espaço interno */
-    margin-left: 350px;        /* espaço para a mini imagem lateral */
-    margin-top: 40px;          /* topo */
-    margin-bottom: 40px;       /* embaixo */
-
-    /* Dimensões ajustáveis dentro do banner */
-    width: calc(100% - 350px - 120px); /* largura total menos lateral e padding */
-    min-height: calc(100% - 80px);     /* altura total menos top+bottom */
-    box-sizing: border-box;
-
-    /* Layout flex para centralizar conteúdo verticalmente */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-
-    /* Estilo do texto */
-    text-align: justify;       /* parágrafos justificados */
+    max-width: 150px;      /* largura máxima do conteúdo */
+    text-align: justify;    /* texto justificado */
+    z-index: 2;         
 }
 
 /* IMAGEM PEQUENA */
@@ -221,6 +200,7 @@ nav a {
         top: 35%;
     }
 }
+
 
 
 
