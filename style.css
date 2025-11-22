@@ -69,8 +69,8 @@ nav a {
 .card-curso {
     position: relative;
     width: 100%;
-    max-width: 1200px;   /* bem mais largo, igual do SOMOS */
-    margin: 40px auto;
+    max-width: 1400px;   /* bem mais largo, igual do SOMOS */
+    margin: 20px auto;
     height: 330px;       /* card maior */
     border-radius: 15px;
     overflow: hidden;
@@ -123,6 +123,7 @@ nav a {
     color: #f7f7f2;
     line-height: 1.6;
 }
+
 
 
 
