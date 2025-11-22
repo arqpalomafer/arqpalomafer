@@ -85,6 +85,7 @@ nav a {
     object-fit: cover;
     border-radius: 18px;
     opacity: 0.95;
+    z-index: 0;
 }
 
 /* Imagem pequena */
@@ -121,4 +122,5 @@ nav a {
     font-size: 16px;
     color: #f7f7f2;
     line-height: 1.5;
+
 }
