@@ -106,10 +106,10 @@ nav a {
 /* TEXTO */
 .curso-conteudo {
     position: absolute;
-    right: 110px;
+    right: 120px;
     top: 40%;
     transform: translateY(-50%);
-    width: 54%;
+    width: 70%;
     z-index: 20;
 }
 
@@ -123,6 +123,7 @@ nav a {
     color: #f7f7f2;
     line-height: 1.6;
 }
+
 
 
 
