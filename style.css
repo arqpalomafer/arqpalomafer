@@ -70,7 +70,7 @@ nav a {
     position: relative;
     width: 100%;
     max-width: 1200px;   /* bem mais largo, igual do SOMOS */
-    margin: 20px auto;
+    margin: 40px auto;
     height: 330px;       /* card maior */
     border-radius: 15px;
     overflow: hidden;
@@ -79,9 +79,9 @@ nav a {
 /* BANNER GRANDE */
 .banner-img {
     position: absolute;
-    top: 0;
-    right: 10px;        /* pequeno espaço à direita */
-    width: 80%;         /* deixa um respiro lateral */
+    top: 50%;
+    right: 0px;        /* pequeno espaço à direita */
+    width: 90%;         /* deixa um respiro lateral */
     height: 70%;
     object-fit: cover;
     border-radius: 15px;
@@ -93,7 +93,7 @@ nav a {
 .mini-img {
     position: absolute;
     top: 50%;
-    left: 20px;          /* pequeno espaço à esquerda */
+    left: 0px;          /* pequeno espaço à esquerda */
     transform: translateY(-50%);
     width: 340px;        /* maior */
     height: 200px;       /* maior */
@@ -123,6 +123,7 @@ nav a {
     color: #f7f7f2;
     line-height: 1.6;
 }
+
 
 
 
