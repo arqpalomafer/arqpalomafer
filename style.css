@@ -65,67 +65,64 @@ nav a {
     color: inherit;
 }
 
+/* CARD GRANDE */
 .card-curso {
     position: relative;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1400px;   /* bem mais largo, igual do SOMOS */
     margin: 60px auto;
-    height: 260px;
-    border-radius: 18px;
+    height: 330px;       /* card maior */
+    border-radius: 22px;
     overflow: hidden;
 }
 
-/* Banner de fundo */
+/* BANNER GRANDE */
 .banner-img {
     position: absolute;
     top: 0;
-    right: -80px;   /* MUITO mais para a direita */
-    width: 1150px;  /* levemente maior */
+    right: 10px;        /* pequeno espaço à direita */
+    width: 96%;         /* deixa um respiro lateral */
     height: 100%;
     object-fit: cover;
-    border-radius: 18px;
+    border-radius: 22px;
     opacity: 0.95;
     z-index: 0;
 }
 
-/* Imagem pequena */
+/* IMAGEM PEQUENA MAIOR */
 .mini-img {
     position: absolute;
     top: 50%;
-    left: 20px;     /* mais distância da esquerda */
+    left: 20px;          /* pequeno espaço à esquerda */
     transform: translateY(-50%);
-    width: 330px;
-    height: 230px;
+    width: 340px;        /* maior */
+    height: 250px;       /* maior */
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 18px;
     z-index: 10;
-    box-shadow: 0 6px 15px #0004;
+    box-shadow: 0 6px 18px #0005;
 }
 
-/* Texto ao lado */
+/* TEXTO */
 .curso-conteudo {
     position: absolute;
     right: 40px;
     top: 50%;
     transform: translateY(-50%);
-    width: 55%;
+    width: 52%;
     z-index: 20;
 }
 
 .curso-conteudo h2 {
-    font-size: 26px;
+    font-size: 30px;
     color: #ffffff;
-    margin-bottom: 10px;
 }
 
 .curso-conteudo p {
-    font-size: 16px;
+    font-size: 18px;
     color: #f7f7f2;
-    line-height: 1.5;
-
+    line-height: 1.6;
 }
-
-
 
 
 
